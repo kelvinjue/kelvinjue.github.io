@@ -41,17 +41,17 @@ class Header extends Component {
     return (
       <div className="header-wrapper">
         <div className="header-item" id="home">
-          <NavLink className="link" to="/">
+          <NavLink className="link" to="/personal-website-v2/">
             HOME
           </NavLink>
         </div>
         <div className="header-item" id="projects">
-          <NavLink className="link" to="/projects">
+          <NavLink className="link" to="/personal-website-v2/projects">
             PROJECTS
           </NavLink>
         </div>
         <div className="header-item" id="contacts">
-          <NavLink className="link" to="/contacts">
+          <NavLink className="link" to="/personal-website-v2/contacts">
             CONTACT
           </NavLink>
         </div>
