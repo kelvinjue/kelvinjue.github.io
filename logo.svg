@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 83.639 94.938">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #76e8aa;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #1c4bcc;
+        font-family: AvenirNext-Bold, Avenir Next;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 66px;
+      }
+
+      .cls-3 {
+        font-size: 63px;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_5_1" data-name="Symbol 5 – 1" transform="translate(-60 -48.685)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="83.639" height="83.639" transform="translate(60 52)"/>
+    <g id="Symbol_4_1" data-name="Symbol 4 – 1">
+      <text id="K" class="cls-2" transform="translate(68.898 114.685)"><tspan x="0" y="0">K</tspan></text>
+      <text id="J" class="cls-3" transform="translate(101.018 120.623)"><tspan x="0" y="0">J</tspan></text>
+    </g>
+  </g>
+</svg>

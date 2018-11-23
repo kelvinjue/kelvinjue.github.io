@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/AvenirNextLTPro-Regular.b5ed9330.otf"
   },
   {
-    "revision": "5b44693fbde47b4591f85046f2f18bd4",
+    "revision": "728e3f3928ffe92f4204052f55edc730",
     "url": "/personal-website-v2/index.html"
   }
 ];
