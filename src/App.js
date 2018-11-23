@@ -13,8 +13,8 @@ class App extends Component {
         <Router>
           <Switch>
             <Route className="main-wrapper" exact path="/" component={Main} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/contacts" component={Contacts} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contacts" component={Contacts} />
           </Switch>
         </Router>
       </body>
