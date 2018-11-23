@@ -6,14 +6,14 @@ html body.projects {
 .title {
   position: absolute;
   left: 150px;
-  top: 80px;
+  top: 90px;
 }
 
 .project-description {
   font-size: 36px;
   position: absolute;
   left: 150px;
-  top: 250px;
+  top: 200px;
   color: black;
 }
 
@@ -22,21 +22,21 @@ html body.projects {
   display: inline-flex;
   text-align: center;
   left: 50px;
-  top: 300px;
+  top: 250px;
 }
 
 .tech-wrapper {
   border-left: double;
   border-left-width: 10px;
-  padding-left: 50px;
+  padding: 40px;
   border-color: #1c4bcc;
   border-radius: 5px;
   width: 200px;
-  height: 400px;
+  height: 300px;
   position: absolute;
-  right: 90px;
+  right: 10px;
   top: 250px;
-
-  color: black;
+  color: #000;
   font-size: 26px;
+  text-align: center;
 }
