@@ -15,6 +15,43 @@ class Contacts extends Component {
         </div>
         <Header active="contacts" />
         <h1 className="title">LET'S CHAT</h1>
+        <div className="contacts-description">
+          Here's some of my contact info and other stuff
+        </div>
+        <div className="social">
+          email: kelvinjue <span className="highlight"> (at) </span> berkeley
+          <span className="highlight"> (dot) </span> edu
+        </div>
+
+        <div className="contact-link-container">
+          <span>
+            <a href="https://www.linkedin.com/in/kelvin-jue">
+              <img
+                className="link"
+                src={require("../../img/linkedin.svg")}
+                alt="linkedin"
+              />
+            </a>
+          </span>
+          <span>
+            <a href="https://github.com/kelvinjue">
+              <img
+                className="link"
+                src={require("../../img/github.svg")}
+                alt="github"
+              />
+            </a>
+          </span>
+          <span>
+            <a href="https://www.dropbox.com/s/0v6qf24v5lrukha/kelvin_jue_resume.pdf?dl=0">
+              <img
+                className="link"
+                src={require("../../img/contract-1.svg")}
+                alt="document"
+              />
+            </a>
+          </span>
+        </div>
       </body>
     );
   }

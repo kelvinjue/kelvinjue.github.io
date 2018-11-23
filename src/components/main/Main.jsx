@@ -22,16 +22,15 @@ class Main extends Component {
             <span className="my-name">I'M KELVIN JUE</span>
             <div className="major">COMPUTER SCIENCE MAJOR AT UC BERKELEY</div>
             <div className="description">
-              ᵘʷᵘ oh frick ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ frick sorry guys ᵘʷᵘ
-              ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ sorry im dropping ᵘʷᵘ my uwus all over the ᵘʷᵘ
-              place ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ sorry
+              The monkey isn't me but I haven't found a good photo to take it's
+              place just yet.
               <div className="link-container">
                 <span>
                   <a href="https://www.linkedin.com/in/kelvin-jue">
                     <img
                       className="link"
                       src={require("../../img/linkedin.svg")}
-                      alt="logo"
+                      alt="linkedin"
                     />
                   </a>
                 </span>
@@ -40,7 +39,16 @@ class Main extends Component {
                     <img
                       className="link"
                       src={require("../../img/github.svg")}
-                      alt="logo"
+                      alt="github"
+                    />
+                  </a>
+                </span>
+                <span>
+                  <a href="https://www.dropbox.com/s/0v6qf24v5lrukha/kelvin_jue_resume.pdf?dl=0">
+                    <img
+                      className="link"
+                      src={require("../../img/contract-1.svg")}
+                      alt="document"
                     />
                   </a>
                 </span>

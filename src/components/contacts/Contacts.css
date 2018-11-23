@@ -2,8 +2,33 @@ html body.contacts {
   background-color: #1c4bcc;
 }
 
+.contacts-description {
+  font-size: 36px;
+  position: absolute;
+  left: 150px;
+  top: 250px;
+  margin-bottom: 20px;
+}
+
 .title {
   position: absolute;
   left: 150px;
   top: 120px;
+}
+
+.social {
+  position: relative;
+  left: 150px;
+  top: 250px;
+  font-size: 30px;
+}
+
+.highlight {
+  color: #76e8aa;
+}
+
+.contact-link-container {
+  position: absolute;
+  left: 150px;
+  top: 500px;
 }

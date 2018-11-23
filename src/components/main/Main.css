@@ -73,6 +73,7 @@ html body.main {
 }
 
 .description {
+  margin-top: 20px;
   font-size: 24px;
 }
 
@@ -84,6 +85,8 @@ html body.main {
   margin: 10px;
   width: 66px;
   height: 66px;
+  color: white;
+  fill: white;
 }
 
 /* 
