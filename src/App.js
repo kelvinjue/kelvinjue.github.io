@@ -12,8 +12,7 @@ class App extends Component {
       <body>
         <Router>
           <Switch>
-            <Route className="main-wrapper" component={Main} />
-            <Route exact path="/" />
+            <Route className="main-wrapper" exact path="/" component={Main} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contacts" component={Contacts} />
           </Switch>

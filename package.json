@@ -1,5 +1,6 @@
 {
   "name": "personal-website",
+  "homepage": "http://kelvinjue.github.io/personal-website-v2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
