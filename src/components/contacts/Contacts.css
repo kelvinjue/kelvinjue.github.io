@@ -1,0 +1,9 @@
+html body.contacts {
+  background-color: #1c4bcc;
+}
+
+.title {
+  position: absolute;
+  left: 150px;
+  top: 120px;
+}

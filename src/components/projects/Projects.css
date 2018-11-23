@@ -1,0 +1,42 @@
+html body.projects {
+  background-color: white;
+  color: #1c4bcc;
+}
+
+.title {
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+
+.project-description {
+  font-size: 36px;
+  position: absolute;
+  left: 150px;
+  top: 250px;
+  color: black;
+}
+
+.display-wrapper {
+  position: absolute;
+  display: inline-flex;
+  text-align: center;
+  left: 50px;
+  top: 300px;
+}
+
+.tech-wrapper {
+  border-left: double;
+  border-left-width: 10px;
+  padding-left: 50px;
+  border-color: #1c4bcc;
+  border-radius: 5px;
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  right: 90px;
+  top: 250px;
+
+  color: black;
+  font-size: 26px;
+}

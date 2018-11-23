@@ -1,0 +1,36 @@
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-wrapper {
+  position: absolute;
+  display: inline-flex;
+  right: 10px;
+  top: 5px;
+}
+
+.header-item {
+  margin: 50px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-item::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #76e8aa;
+  transition: width 0.3s;
+}
+
+.header-item:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+#active {
+  border-bottom: 7px solid #76e8aa;
+  color: #76e8aa;
+}

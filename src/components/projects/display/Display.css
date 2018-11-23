@@ -1,0 +1,24 @@
+.box {
+  position: relative;
+  display: block;
+
+  margin: 30px;
+  width: 275px;
+  height: 400px;
+}
+
+.photo {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #76e8aa;
+  border-radius: 5px;
+  /* box-shadow: 5px 10px #888888; */
+
+  width: 275px;
+  height: 200px;
+  background-color: #76e8aa;
+}
+
+.text {
+  color: black;
+}
