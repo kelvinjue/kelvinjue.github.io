@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/teacher-portal-2.6a7404af.png"
   },
   {
-    "revision": "23ca8d076525c8d35fe9",
+    "revision": "a83a6e358893be487eb8",
     "url": "/personal-website-v2/static/css/main.f9f95902.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/ikea_monkey.671627af.png"
   },
   {
-    "revision": "23ca8d076525c8d35fe9",
-    "url": "/personal-website-v2/static/js/main.23ca8d07.chunk.js"
+    "revision": "a83a6e358893be487eb8",
+    "url": "/personal-website-v2/static/js/main.a83a6e35.chunk.js"
   },
   {
     "revision": "677b6191026d04c93377daf47f764216",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/AvenirNextLTPro-Regular.b5ed9330.otf"
   },
   {
-    "revision": "6145d1a81ccad75fa8cabfeb3ecd9db2",
+    "revision": "f71b44cd7820d9ae473d8756101605a7",
     "url": "/personal-website-v2/index.html"
   }
 ];
