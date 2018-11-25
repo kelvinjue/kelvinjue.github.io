@@ -22,8 +22,7 @@ class Main extends Component {
             <span className="my-name">I'M KELVIN JUE</span>
             <div className="major">COMPUTER SCIENCE MAJOR AT UC BERKELEY</div>
             <div className="description">
-              The monkey isn't me but I haven't found a good photo to take it's
-              place just yet.
+              I'm a
               <div className="link-container">
                 <span>
                   <a href="https://www.linkedin.com/in/kelvin-jue">
@@ -44,7 +43,7 @@ class Main extends Component {
                   </a>
                 </span>
                 <span>
-                  <a href="https://www.dropbox.com/s/0v6qf24v5lrukha/kelvin_jue_resume.pdf?dl=0">
+                  <a href="https://www.dropbox.com/s/lubqfyj9xheacj5/kelvin_jue_resume_dropbox.pdf?dl=0">
                     <img
                       className="link"
                       src={require("../../img/contract-1.svg")}
@@ -60,7 +59,7 @@ class Main extends Component {
             <div id="hide-overflow">
               <img
                 className="monkey"
-                src={require("../../img/ikea_monkey.png")}
+                src={require("../../img/kelvin_head.jpg")}
                 alt="mentored project"
               />
             </div>

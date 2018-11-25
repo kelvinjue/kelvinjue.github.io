@@ -35,7 +35,15 @@ class Projects extends Component {
           <Display
             src={require("../../img/cny.jpeg")}
             alt="Photography"
-            text="Not really a CS project, but I'm really trying to get into photography! Here's a link to some photos that I've taken:"
+            text={
+              <span>
+                Not really a CS project, but I'm really trying to get into
+                photography!{" "}
+                <a href="https://photos.app.goo.gl/HWGYU1L4sDKT4VAQ6">
+                  Check it out!
+                </a>
+              </span>
+            }
           />
         </div>
         <div className="tech-wrapper">

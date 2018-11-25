@@ -43,7 +43,7 @@ class Contacts extends Component {
             </a>
           </span>
           <span>
-            <a href="https://www.dropbox.com/s/0v6qf24v5lrukha/kelvin_jue_resume.pdf?dl=0">
+            <a href="https://www.dropbox.com/s/lubqfyj9xheacj5/kelvin_jue_resume_dropbox.pdf?dl=0">
               <img
                 className="link"
                 src={require("../../img/contract-1.svg")}
