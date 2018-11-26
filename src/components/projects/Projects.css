@@ -40,3 +40,8 @@ html body.projects {
   font-size: 26px;
   text-align: center;
 }
+
+.tech-logo {
+  height: 100px;
+  width: 100px;
+}

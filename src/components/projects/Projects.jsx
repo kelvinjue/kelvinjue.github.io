@@ -39,7 +39,10 @@ class Projects extends Component {
               <span>
                 Not really a CS project, but I'm really trying to get into
                 photography!{" "}
-                <a href="https://photos.app.goo.gl/HWGYU1L4sDKT4VAQ6">
+                <a
+                  className="photo-link"
+                  href="https://photos.app.goo.gl/HWGYU1L4sDKT4VAQ6"
+                >
                   Check it out!
                 </a>
               </span>
@@ -49,26 +52,26 @@ class Projects extends Component {
         <div className="tech-wrapper">
           I'VE WORKED IN
           <img
-            className="logo"
+            className="tech-logo"
             src={require("../../img/react.svg")}
             alt="react"
           />
           <img
-            className="logo"
+            className="tech-logo"
             src={require("../../img/python.svg")}
             alt="python"
           />
           <img
-            className="logo"
+            className="tech-logo"
             src={require("../../img/java.svg")}
             alt="java"
           />
           <img
-            className="logo"
+            className="tech-logo"
             src={require("../../img/postgresql.svg")}
             alt="psql"
           />
-          <img className="logo" src={require("../../img/c.svg")} alt="c" />
+          <img className="tech-logo" src={require("../../img/c.svg")} alt="c" />
         </div>
       </body>
     );

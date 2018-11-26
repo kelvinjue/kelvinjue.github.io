@@ -20,17 +20,12 @@ html body.main {
   margin-left: 50px;
   top: 30px;
   width: 360px;
-  height: 360px;
-  z-index: 0;
+  height: 480px;
 }
 
 .monkey {
   z-index: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 100%;
+  height: 480px;
 }
 
 #hide-overflow {
