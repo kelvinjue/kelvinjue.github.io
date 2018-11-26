@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/teacher-portal-2.6a7404af.png"
   },
   {
-    "revision": "2112a5972b5507876855",
-    "url": "/personal-website-v2/static/css/main.76fd3a08.chunk.css"
+    "revision": "b76d480e9dc14156e3fe",
+    "url": "/personal-website-v2/static/css/main.04da3c59.chunk.css"
   },
   {
     "revision": "53b1b005de02b6d05c5c",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/contract-1.75e45ea8.svg"
   },
   {
-    "revision": "87dee792a3c8c58bc1fbe7580b1b1613",
-    "url": "/personal-website-v2/static/media/kelvin_head.87dee792.jpg"
+    "revision": "fa29209dc221d7a1736aa86331617736",
+    "url": "/personal-website-v2/static/media/kelvin_6flags2.fa29209d.jpg"
   },
   {
-    "revision": "2112a5972b5507876855",
-    "url": "/personal-website-v2/static/js/main.2112a597.chunk.js"
+    "revision": "b76d480e9dc14156e3fe",
+    "url": "/personal-website-v2/static/js/main.b76d480e.chunk.js"
   },
   {
     "revision": "677b6191026d04c93377daf47f764216",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/AvenirNextLTPro-Regular.b5ed9330.otf"
   },
   {
-    "revision": "65e539c138718ca0fca30d59665be63b",
+    "revision": "5290da694dccc160a55b3d93456479ef",
     "url": "/personal-website-v2/index.html"
   }
 ];
