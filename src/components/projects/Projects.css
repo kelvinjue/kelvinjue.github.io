@@ -20,6 +20,8 @@
   position: relative;
   display: inline-flex;
   text-align: center;
+  font-size: 14px;
+  margin-bottom: 50px;
 }
 
 .tech-wrapper {
@@ -47,5 +49,7 @@
 @media only screen and (max-width: 1350px) {
   .tech-wrapper {
     position: static;
+    border: none;
+    display: inline-flex;
   }
 }
