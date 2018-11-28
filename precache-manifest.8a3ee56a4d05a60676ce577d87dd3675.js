@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/teacher-portal-2.6a7404af.png"
   },
   {
-    "revision": "b76d480e9dc14156e3fe",
-    "url": "/personal-website-v2/static/css/main.04da3c59.chunk.css"
+    "revision": "e88e1d4ebd7ae7091d54",
+    "url": "/personal-website-v2/static/css/main.912d8cfc.chunk.css"
   },
   {
     "revision": "53b1b005de02b6d05c5c",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/kelvin_6flags2.fa29209d.jpg"
   },
   {
-    "revision": "b76d480e9dc14156e3fe",
-    "url": "/personal-website-v2/static/js/main.b76d480e.chunk.js"
+    "revision": "e88e1d4ebd7ae7091d54",
+    "url": "/personal-website-v2/static/js/main.e88e1d4e.chunk.js"
   },
   {
     "revision": "677b6191026d04c93377daf47f764216",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/personal-website-v2/static/media/AvenirNextLTPro-Regular.b5ed9330.otf"
   },
   {
-    "revision": "5290da694dccc160a55b3d93456479ef",
+    "revision": "2be588666b97d7e82c6e2c3abafdfafd",
     "url": "/personal-website-v2/index.html"
   }
 ];
