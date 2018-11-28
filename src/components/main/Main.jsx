@@ -5,7 +5,7 @@ import Header from "../header/Header";
 class Main extends Component {
   render() {
     return (
-      <body className="main">
+      <div className="main">
         <div>
           <Header active="home" />
         </div>
@@ -76,7 +76,7 @@ class Main extends Component {
             />
           </div>
         </div>
-      </body>
+      </div>
     );
   }
 }
