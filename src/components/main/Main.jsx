@@ -14,16 +14,6 @@ function Main() {
   }, []);
   return (
     <div className="main">
-      <div className="intro">
-        <span className="hey">HEY THERE,</span>{" "}
-        <span className="my-name">I'M KELVIN JUE</span>
-        <div className="major">I STUDY CS + BUSINESS AT UC BERKELEY</div>
-        <div className="description">
-          I'm just a <span style={{ color: "#e77fae" }}>{roles[role]}</span>
-          <div>trying to make some cool things.</div>
-        </div>
-      </div>
-
       <div className="main-photo">
         <div id="hide-overflow">
           <img
@@ -31,6 +21,15 @@ function Main() {
             src={require("../../img/kelvin.jpg")}
             alt="mentored project"
           />
+        </div>
+      </div>
+      <div className="intro">
+        <span className="hey">hey there, i'm</span>{" "}
+        <span className="my-name">kelvin jue</span>
+        <div className="major">i study cs + business at uc berkeley</div>
+        <div className="description">
+          i'm just a <span style={{ color: "#e77fae" }}>{roles[role]}</span>
+          <div>trying to make some cool things.</div>
         </div>
       </div>
     </div>

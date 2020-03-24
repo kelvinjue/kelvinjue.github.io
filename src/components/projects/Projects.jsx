@@ -6,76 +6,66 @@ function Projects() {
   return (
     <div className="projects">
       <div className="container">
-        <h1 className="title">PROJECTS</h1>
+        <h1 className="title">projects</h1>
         <div className="project-description">
-          Here's some stuff that I've worked on
+          here's some stuff that I've worked on...
         </div>
         <div className="display-wrapper">
-          <Display
-            src={require("../../img/teacher-portal-2.png")}
-            alt="Teacher Portal"
-            text="This semester I worked with a team of other developers to work on an NPO project for a local high school. 
-              The teacher portal acts as a way for students and teachers to interact by collecting feedback and saving documents."
-          />
-          <Display
-            src={require("../../img/where2meet.png")}
-            alt="Where2Meet"
-            text="For CalHacks, my team built an app to solve the ever persistent problem of indecision. 
-              Once users login, they can choose their friends to hangout with, and using their locations a central location can be found"
-          />
-          <Display
-            src={require("../../img/atl.jpg")}
-            alt="Atlassian Rate-Limiter"
-            text={
-              <span>
-                During Spring 2019, I worked with a team to build a rate-limiter
-                for Atlassian.{" "}
-                <a
-                  className="photo-link"
-                  href="https://photos.app.goo.gl/HWGYU1L4sDKT4VAQ6"
-                >
-                  Check it out!
-                </a>
-              </span>
-            }
-          />
+          <div className="display">
+            in <span style={{ color: "#e77fae" }}>spring 2020</span>... i was a
+            project manager for a team of 8 built out a data migration service
+            for cloud-deployed databases for{" "}
+            <span style={{ color: "#1c4bcc" }}>datastax</span>
+          </div>
+          <div className="display">
+            in <span style={{ color: "#1c4bcc" }}>fall 2019</span>... i was a
+            part of a team that helped build out invite features on the{" "}
+            <span style={{ color: "#e77fae" }}>storr</span> mobile app
+          </div>
+          <div className="display">
+            in <span style={{ color: "#e77fae" }}>summer 2020</span>... i worked
+            as an intern on the <span style={{ color: "#1c4bcc" }}>amazon</span>{" "}
+            homepage team to build out internal tools helpful for debugging
+          </div>
+          <div className="display">
+            in <span style={{ color: "#1c4bcc" }}>spring 2019</span>... i worked
+            on a team that built a rate-limiter service for{" "}
+            <a
+              href={
+                "https://community.atlassian.com/t5/Agile-articles/Atlassian-Cloud-Platform-s-spring-2019-student-project-with-UC/ba-p/1155788"
+              }
+              style={{ color: "#e77fae" }}
+            >
+              atlassian
+            </a>
+          </div>
+          <div className="display">
+            in <span style={{ color: "#e77fae" }}>fall 2018</span>... i helped
+            build a{" "}
+            <a
+              href={
+                "https://medium.com/berkeley-codebase/the-mentored-project-72db8aabb70e"
+              }
+              style={{ color: "#1c4bcc" }}
+            >
+              portal
+            </a>{" "}
+            for students and teachers at a local high school
+          </div>
         </div>
       </div>
+      <div className="project-description">i've worked in...</div>
       <div className="tech-wrapper">
-        I'VE WORKED IN
-        <img
-          className="tech-logo"
-          src={require("../../img/react.svg")}
-          alt="react"
-        />
-        <img
-          className="tech-logo"
-          src={require("../../img/python.svg")}
-          alt="python"
-        />
-        <img
-          className="tech-logo"
-          src={require("../../img/java.svg")}
-          alt="java"
-        />
-        <img
-          className="tech-logo"
-          src={require("../../img/postgresql.svg")}
-          alt="psql"
-        />
-      </div>
-      <div className="tech-wrapper">
-        <img
-          className="tech-logo"
-          src={require("../../img/go.png")}
-          alt="golang"
-        />
-        <img
-          className="tech-logo"
-          src={require("../../img/graphql.png")}
-          alt="graphql"
-        />
-        <img className="tech-logo" src={require("../../img/c.svg")} alt="c" />
+        <div className="tech-1">react</div>
+        <div className="tech-1">golang</div>
+        <div className="tech-2">java</div>
+        <div className="tech-2">python</div>
+        <div className="tech-3">sql</div>
+        <div className="tech-3">graphql</div>
+        <div className="tech-3">
+          <span id="smallGuy">trying to learn</span> ruby
+          <span style={{ color: "#e77fae" }}>/</span>rails
+        </div>
       </div>
     </div>
   );

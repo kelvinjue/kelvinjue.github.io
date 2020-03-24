@@ -5,13 +5,14 @@ function Contacts() {
   return (
     <div className="contacts">
       <div className="container">
-        <h1 className="title">LET'S CHAT</h1>
+        <h1 className="title">let's chat</h1>
         <div className="contacts-description">
           Here's some of my contact info and other stuff
         </div>
         <div className="social">
-          email: kelvinjue <span className="highlight"> (at) </span> berkeley
-          <span className="highlight"> (dot) </span> edu
+          email: kelvinjue <span className="highlight-pink"> (at) </span>{" "}
+          berkeley
+          <span className="highlight-blue"> (dot) </span> edu
         </div>
 
         <div className="contact-link-container">

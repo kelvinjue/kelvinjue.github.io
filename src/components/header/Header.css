@@ -3,10 +3,16 @@
   text-decoration: none;
 }
 
+.logo-wrapper {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-right: 60%;
+}
+
 .header-wrapper {
-  display: inline-flex;
-  right: 10px;
-  top: 5px;
+  margin-top: 1%;
+  display: flex;
 }
 
 .header-item {
@@ -15,7 +21,7 @@
   text-decoration: none;
 }
 
-.header-item::after {
+.header-item:not(#active)::after {
   content: "";
   display: block;
   width: 0;
@@ -24,7 +30,7 @@
   transition: width 0.3s;
 }
 
-.header-item:hover::after {
+.header-item:not(#active):hover::after {
   width: 100%;
   transition: width 0.3s;
 }

@@ -1,29 +1,15 @@
 .main {
-  /* background-color: #e77fae; */
-  width: 100%;
-  height: 100vh;
-}
-
-.logo-wrapper {
   display: flex;
-  left: 60px;
-  top: 48.69px;
-  width: 100px;
-  height: 100px;
-  margin: 5px;
-  align-self: flex-end;
-}
-
-.logo {
-  position: relative;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
 }
 
 .main-photo {
-  position: relative;
-  margin-left: 50px;
-  top: 30px;
   width: 360px;
   height: 480px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .monkey {
@@ -31,44 +17,13 @@
   height: 480px;
 }
 
-#hide-overflow {
-  overflow: hidden;
-}
-
-.dots-1 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  margin-right: -69px;
-  margin-top: -48px;
-  animation: dots-spin infinite 10s linear;
-}
-
-.dots-2 {
-  position: absolute;
-  bottom: 0;
-  left: 25px;
-  z-index: 1;
-  margin-bottom: -69px;
-  animation: dots-spin infinite 10s linear;
-}
-
 .intro {
-  position: absolute;
-  top: 250px;
-  left: 606px;
   font-size: 55px;
   z-index: 1;
 }
 
-.hey {
-  font-weight: 900;
-}
-
 .my-name {
-  /* color: #76e8aa; */
-  font-weight: lighter;
+  font-weight: 900;
 }
 
 .major {
@@ -88,36 +43,4 @@
   margin: 10px;
   width: 66px;
   height: 66px;
-  /* color: white;
-  fill: white; */
-}
-
-/* 
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 40vmin;
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  } */
-
-@keyframes dots-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
 }
