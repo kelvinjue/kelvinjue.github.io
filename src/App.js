@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Header />
           <Route className="main-wrapper" exact path="" component={Main} />

@@ -34,10 +34,10 @@ function Contacts() {
             </a>
           </span>
           <span>
-            <a href="https://www.dropbox.com/s/lubqfyj9xheacj5/kelvin_jue_resume_dropbox.pdf?dl=0">
+            <a href="https://www.dropbox.com/s/257k2x41pevv2jz/kelvin_jue_resume.pdf?dl=0">
               <img
                 className="link"
-                src={require("../../img/mail-black.png")}
+                src={require("../../img/file-black.png")}
                 alt="document"
               />
             </a>
