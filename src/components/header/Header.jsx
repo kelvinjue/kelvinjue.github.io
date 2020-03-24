@@ -6,18 +6,14 @@ function Header() {
   const [hightlight, changeHighlight] = useState({ current: "home" });
   const pathName = useLocation().pathname;
   useEffect(() => {
-    console.log(hightlight);
     const divs = Array.from(document.querySelectorAll("div.header-item"));
-    console.log(divs);
     let div = "";
     divs.map(div => div.setAttribute("id", ""));
-    console.log(divs);
     if (hightlight === "home" || pathName === "/") {
       div = divs[0];
       div.setAttribute("id", "active");
     } else if (hightlight === "projects" || pathName === "/projects") {
       div = divs[1];
-      console.log(div);
       div.setAttribute("id", "active");
     } else if (hightlight === "contacts" || pathName === "/contacts") {
       div = divs[2];
