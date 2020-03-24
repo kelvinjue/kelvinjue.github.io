@@ -1,14 +1,10 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   const [hightlight, changeHighlight] = useState({ current: "home" });
 
-  // componentDidMount() {
-  //   const { active } = this.props;
-  //   this.highlight(active);
-  // }
   useEffect(() => {
     console.log(hightlight);
     const divs = Array.from(document.querySelectorAll("div.header-item"));
@@ -28,6 +24,7 @@ function Header() {
       div.setAttribute("id", "active");
     }
   });
+
   return (
     <div className="header-wrapper">
       <div className="logo-wrapper">

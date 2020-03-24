@@ -1,14 +1,9 @@
 import React from "react";
-import Header from "../header/Header";
 import "./Contacts.css";
 
 function Contacts() {
   return (
     <div className="contacts">
-      {/* <div className="logo-wrapper">
-        <img className="logo" src={require("../../img/logo.svg")} alt="logo" />
-      </div> */}
-      {/* <Header active="contacts" /> */}
       <div className="container">
         <h1 className="title">LET'S CHAT</h1>
         <div className="contacts-description">
@@ -24,7 +19,7 @@ function Contacts() {
             <a href="https://www.linkedin.com/in/kelvin-jue">
               <img
                 className="link"
-                src={require("../../img/linkedin.svg")}
+                src={require("../../img/linkedin-black.png")}
                 alt="linkedin"
               />
             </a>
@@ -33,7 +28,7 @@ function Contacts() {
             <a href="https://github.com/kelvinjue">
               <img
                 className="link"
-                src={require("../../img/github.svg")}
+                src={require("../../img/github-black.svg")}
                 alt="github"
               />
             </a>
@@ -42,7 +37,7 @@ function Contacts() {
             <a href="https://www.dropbox.com/s/lubqfyj9xheacj5/kelvin_jue_resume_dropbox.pdf?dl=0">
               <img
                 className="link"
-                src={require("../../img/contract-1.svg")}
+                src={require("../../img/mail-black.png")}
                 alt="document"
               />
             </a>

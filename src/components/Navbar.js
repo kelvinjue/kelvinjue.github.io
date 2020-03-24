@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "../img/logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 

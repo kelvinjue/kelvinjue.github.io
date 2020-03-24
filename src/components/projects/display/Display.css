@@ -1,6 +1,7 @@
 .box {
   position: relative;
   display: block;
+
   margin: 25px 15px 0 15px;
   width: 275px;
   height: 380px;
@@ -37,7 +38,7 @@ a.photo-link:visited {
 
 /* mouse over link */
 a.photo-link:hover {
-  color: #e77fae;
+  color: #1c4bcc;
 }
 
 /* selected link */

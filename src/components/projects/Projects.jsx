@@ -1,15 +1,10 @@
-import React, { Component } from "react";
-import Header from "../header/Header";
+import React from "react";
 import Display from "./display/Display";
 import "./Projects.css";
 
 function Projects() {
   return (
     <div className="projects">
-      {/* <div className="logo-wrapper">
-        <img className="logo" src={require("../../img/logo.svg")} alt="logo" />
-      </div> */}
-      {/* <Header active="projects" /> */}
       <div className="container">
         <h1 className="title">PROJECTS</h1>
         <div className="project-description">
