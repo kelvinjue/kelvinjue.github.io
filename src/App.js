@@ -1,21 +1,29 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import Projects from "./components/projects/Projects";
 import Contacts from "./components/contacts/Contacts";
-import Header from "./components/header/Header";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div>
           <Header />
-          <Route className="main-wrapper" exact path="" component={Main} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contacts" component={Contacts} />
+          <Switch>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/contacts">
+              <Contacts />
+            </Route>
+            <Route className="main-wrapper" path="/">
+              <Main />
+            </Route>
+          </Switch>
         </div>
       </Router>
     </div>

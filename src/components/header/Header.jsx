@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   const [hightlight, changeHighlight] = useState({ current: "home" });
-
+  const pathName = useLocation().pathname;
   useEffect(() => {
     console.log(hightlight);
     const divs = Array.from(document.querySelectorAll("div.header-item"));
@@ -12,14 +12,14 @@ function Header() {
     let div = "";
     divs.map(div => div.setAttribute("id", ""));
     console.log(divs);
-    if (hightlight === "home") {
+    if (hightlight === "home" || pathName === "/") {
       div = divs[0];
       div.setAttribute("id", "active");
-    } else if (hightlight === "projects") {
+    } else if (hightlight === "projects" || pathName === "/projects") {
       div = divs[1];
       console.log(div);
       div.setAttribute("id", "active");
-    } else if (hightlight === "contacts") {
+    } else if (hightlight === "contacts" || pathName === "/contacts") {
       div = divs[2];
       div.setAttribute("id", "active");
     }
@@ -31,31 +31,27 @@ function Header() {
         <img className="logo" src={require("../../img/logo.svg")} alt="logo" />
       </div>
       <div className="header-item" id="home">
-        <NavLink
-          className="link"
-          to="/"
-          onClick={() => changeHighlight("home")}
-        >
+        <Link className="link" to="/" onClick={() => changeHighlight("home")}>
           HOME
-        </NavLink>
+        </Link>
       </div>
       <div className="header-item" id="projects">
-        <NavLink
+        <Link
           className="link"
           to="/projects"
           onClick={() => changeHighlight("projects")}
         >
           PROJECTS
-        </NavLink>
+        </Link>
       </div>
       <div className="header-item" id="contacts">
-        <NavLink
+        <Link
           className="link"
           to="/contacts"
           onClick={() => changeHighlight("contacts")}
         >
           CONTACT
-        </NavLink>
+        </Link>
       </div>
     </div>
   );
