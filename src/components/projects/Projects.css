@@ -44,6 +44,7 @@
 .tech-1 {
   width: 40%;
   color: #1c4bcc;
+  margin-bottom: 5%;
   opacity: 0.5;
   transition: 0.3s;
 }
@@ -51,6 +52,7 @@
   margin-left: 14%;
   width: 30%;
   color: #e77fae;
+  margin-bottom: 4%;
   opacity: 0.4;
   transition: 0.3s;
 }
@@ -58,6 +60,7 @@
   margin-left: 4%;
   width: 25%;
   color: #1c4bcc;
+  margin-bottom: 4%;
   opacity: 0.5;
   transition: 0.3s;
 }
