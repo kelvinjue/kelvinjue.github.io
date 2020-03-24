@@ -4,7 +4,6 @@
 }
 
 .header-wrapper {
-  position: absolute;
   display: inline-flex;
   right: 10px;
   top: 5px;
@@ -21,7 +20,7 @@
   display: block;
   width: 0;
   height: 2px;
-  background: #76e8aa;
+  background: #e77fae;
   transition: width 0.3s;
 }
 
@@ -31,6 +30,6 @@
 }
 
 #active {
-  border-bottom: 7px solid #76e8aa;
-  color: #76e8aa;
+  border-bottom: 7px solid #e77fae;
+  color: #e77fae;
 }

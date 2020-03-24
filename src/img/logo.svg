@@ -2,11 +2,11 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #76e8aa;
+        fill: #1c4bcc;
       }
 
       .cls-2, .cls-3 {
-        fill: #1c4bcc;
+        fill: white;
         font-family: AvenirNext-Bold, Avenir Next;
         font-weight: 700;
       }

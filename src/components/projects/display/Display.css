@@ -1,7 +1,6 @@
 .box {
   position: relative;
   display: block;
-
   margin: 25px 15px 0 15px;
   width: 275px;
   height: 380px;
@@ -10,13 +9,12 @@
 .photo {
   border-style: solid;
   border-width: 10px;
-  border-color: #76e8aa;
+  border-color: #e77fae;
   border-radius: 5px;
   /* box-shadow: 5px 10px #888888; */
 
   width: 275px;
   height: 200px;
-  background-color: #76e8aa;
 }
 
 .text {
@@ -29,7 +27,7 @@ a.photo-link {
 
 /* unvisited link */
 a.photo-link:link {
-  color: #76e8aa;
+  color: #e77fae;
 }
 
 /* visited link */
@@ -39,7 +37,7 @@ a.photo-link:visited {
 
 /* mouse over link */
 a.photo-link:hover {
-  color: #76e8aa;
+  color: #e77fae;
 }
 
 /* selected link */

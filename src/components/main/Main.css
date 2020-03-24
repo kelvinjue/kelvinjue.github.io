@@ -1,16 +1,17 @@
 .main {
-  background-color: #1c4bcc;
+  /* background-color: #e77fae; */
   width: 100%;
   height: 100vh;
 }
 
 .logo-wrapper {
-  display: block;
+  display: flex;
   left: 60px;
   top: 48.69px;
   width: 100px;
   height: 100px;
   margin: 5px;
+  align-self: flex-end;
 }
 
 .logo {
@@ -66,7 +67,7 @@
 }
 
 .my-name {
-  color: #76e8aa;
+  /* color: #76e8aa; */
   font-weight: lighter;
 }
 
@@ -87,8 +88,8 @@
   margin: 10px;
   width: 66px;
   height: 66px;
-  color: white;
-  fill: white;
+  /* color: white;
+  fill: white; */
 }
 
 /* 
