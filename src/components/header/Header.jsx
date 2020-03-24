@@ -36,7 +36,7 @@ function Header() {
       <div className="header-item" id="home">
         <NavLink
           className="link"
-          to="/personal-website-v2/"
+          to="/"
           onClick={() => changeHighlight("home")}
         >
           HOME
@@ -45,7 +45,7 @@ function Header() {
       <div className="header-item" id="projects">
         <NavLink
           className="link"
-          to="/personal-website-v2/projects"
+          to="/projects"
           onClick={() => changeHighlight("projects")}
         >
           PROJECTS
@@ -54,7 +54,7 @@ function Header() {
       <div className="header-item" id="contacts">
         <NavLink
           className="link"
-          to="/personal-website-v2/contacts"
+          to="/contacts"
           onClick={() => changeHighlight("contacts")}
         >
           CONTACT

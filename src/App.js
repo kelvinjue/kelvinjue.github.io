@@ -16,14 +16,9 @@ function App() {
       <Router>
         <div>
           <Header />
-          <Route
-            className="main-wrapper"
-            exact
-            path="/personal-website-v2/"
-            component={Main}
-          />
-          <Route path="/personal-website-v2/projects" component={Projects} />
-          <Route path="/personal-website-v2/contacts" component={Contacts} />
+          <Route className="main-wrapper" exact path="" component={Main} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/contacts" component={Contacts} />
         </div>
       </Router>
     </div>
