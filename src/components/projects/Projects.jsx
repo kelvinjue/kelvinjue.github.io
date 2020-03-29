@@ -13,8 +13,8 @@ function Projects() {
         <div className="display-wrapper">
           <div className="display">
             in <span style={{ color: "#e77fae" }}>spring 2020</span>... i was a
-            project manager for a team of 8 built out a data migration service
-            for cloud-deployed databases for{" "}
+            project manager for a team of 8 that built out a data migration
+            service for cloud-deployed databases for{" "}
             <span style={{ color: "#1c4bcc" }}>datastax</span>
           </div>
           <div className="display">
